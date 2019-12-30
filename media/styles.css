@@ -1,0 +1,92 @@
+body {
+	width: 1000px;
+	margin: auto;
+	text-align: center;
+	background-color: black;
+	color: red;
+	font-family: 'BenchNine', sans-serif;
+	font-weight: 700;
+}
+
+div.wrap {
+	font-size: 35px;
+	letter-spacing: 10px;
+}
+
+h1 {
+	font-size: 6em;
+}
+
+.largerSpace span[data-letters=" "] {
+	display: inline-block;
+	width: 26px;
+}
+
+
+.largestSpace span[data-letters=" "] {
+	display: inline-block;
+	width: 43px;
+}
+
+div.button {
+	border: red 1px solid;
+	width: 225px;
+	margin: auto;
+	display: none;
+	margin-top: 75px;
+}
+
+.button:hover, .button:focus {
+	background-color: red;
+	color: black;
+}
+
+#GithubRibbon {
+	position: absolute;
+	top: 0; right: 0;
+	border: 0;"
+}
+
+/* Default link styling */
+a:link {
+	color:red;
+	text-decoration: none;
+}
+
+a:visited {
+	color: red;
+}
+
+/* Print styles */
+@media print {
+	* {
+			color:#000 !important;
+			box-shadow:none !important;
+			text-shadow:none !important;
+			background:transparent !important;
+	}
+	html { background-color:#fff; }
+	/* Hide navigation */
+	nav { display:none; }
+
+	/* Show link destinations in brackets after the link text */
+	a[href]:after { content: " (" attr(href) ") "; }
+	a[href] {
+			font-weight:bold;
+			text-decoration:underline;
+			color:#06c;
+			border:none;
+	}
+	/* Don't show link destinations for JavaScript or internal links */ 
+	a[href^="javascript:"]:after, a[href^="#"]:after { content:""; }
+	
+	/* Show abbr title value in brackets after the text */
+	abbr[title]:after { content: " (" attr(title) ")"; }
+
+	figure { 
+			margin-bottom:1em; 
+			overflow:hidden;
+	}
+
+	figure img { border:1px solid #000; }
+}

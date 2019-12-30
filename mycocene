@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    </head>
+
+    <body>
+
+      <h1><a class="goToIndex" href="emma"> < </a></h1>
+
+      <br>
+      <br>
+
+      <div class="projectTitle">
+
+        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/305154473" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+        <p><b><i>Mycocene</i></b>, Installation Documentation, 2018</p>
+        </div>
+
+        <div class="paragraphs">
+        <br>
+
+        <p><b><i>Mycocene</i></b> was exhibited at OBORO in June 2019, as part of the ELEKTRA programming.</p>
+
+        <p><b><i>Mycocene</i></b> is a speculative future. It hypothesizes an alternative framework where mycelium is the most prominent force of change on the planet's surface. This framework suggests a reality where our current use of technology is composted into one that has symbiosis in mind. Symbiosis within the <b><i>Mycocene</i></b> blurs the line between conventional technology and nature and explores uses of technology that do not attempt to save nor exploit our ecosystems, but augment and communicate with them. Mycelium is the communication highway between species, it is an integral link within ecosystems, functioning like an internet of nutrients. In the spirit of this metaphor, the <b><i>Mycocene</i></b> project will repurpose electronic waste to be in symbiosis with this highly advanced natural system of mycelium–foregrounding the immense intelligence that nature exhibits which, as a species, we (humans) choose to ignore. <b><i>Mycocene</i></b> is an interpretation of a future where humans play a positive role in the Earth’s complex system of self-regulation, feedback, and evolution. It symbolizes a social and ecological revolution to save our planet and those living on it. Technology is part of our collective identity, we do not have to stop using technology as a species to help the Earth survive. Instead, we need to change how we create and view our technology to benefit all species on a global level.
+        </p>
+        <p>In simple terms, mycelia are the roots of a mushroom. They extend vast ranges underground connecting a wide variety of organisms (plants, trees, insects). They function like the nervous system of a forest, allowing communication between species. For <b><i>Mycocene</i></b>, we built a symbiotic structure that connects mycelium to reclaimed electronic waste. The mycelial network is housed in a controlled habitat on a gelatinous growth medium enclosed by transparent panes of acrylic. The mycelium is probed with a silver needle connected to amplification and noise reduction circuits in order to establish an electrical connection through which we will read minute electrical perturbations emanating from the mycelium and its growth medium. A microcontroller is used to record and analyze these signals computationally and channel them to the ‘waste’ electronics. Reinvigorated with life and repurposed back into the earth (soil) from which their components are mined from, the electronics (in the form of old phone LCD screens, piezoelectric speakers, computer fans, etc.) will behave organically - unraveling memories from their past, but, most importantly, continuing their life symbiotically within the natural ecosystem. The mycelium is suspended from the ceiling with various electronic waste components hanging throughout the space and arranged on the floor. Observers witness this ecological environment consisting of animated electronic waste whose mechanical actuations are sonified resulting in a dynamic unscripted cacophony.
+        </p>
+        </div>
+        <br>
+        <div class="projectTitle">
+        <p>For more information about <b><i>Mycocene</i></b>, please visit --> <a href="http://mycocene.net/">mycocene.net</a></p>
+        </div>
+        <br>
+
+        <img class="imgMachine" src="./media/Mycocene_1.jpg"></img>
+        <img class="imgMachine" src="./media/Mycocene_3 2.jpg"></img>
+        <img class="imgMachine" src="./media/Mycocene_5.jpg"></img>
+        <img class="imgMachine" src="./media/Mycocene_6.jpg"></img>
+        <img class="imgMachine" src="./media/Mycocene_8.jpg"></img>
+        <img class="imgMachine" src="./media/Mycocene_30.jpg"></img>
+        <img class="imgMachine" src="./media/Mycocene_40.jpg"></img>
+        <img class="imgMachine" src="./media/Mycocene_60.jpg"></img>
+        <img class="imgMachine" src="./media/Mycocene_70.jpg"></img>
+
+        <div class="projectTitle">
+        <p><b>a Collaboration between</b><p>
+          <p>Sam Bourgault</p>
+          <p>Emma Forgues</p>
+          <p>Matthew Halpenny</p>
+          <p>Matthew Salaciak</p>
+          <p>Owen Coolidge</p>
+          </div>
+
+        <!-- <div class="logo">
+          <img src="./media/milieux.jpg"></img>
+          <img src="./media/csu.png"></img>
+          <img src="./media/fasa.png"></img>
+        </div> -->
+
+        <br>
+
+    </body>
+
+</html>

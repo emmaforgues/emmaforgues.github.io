@@ -1,0 +1,140 @@
+body{
+  background-image: url("./media/mobile.jpg");
+
+    height: 100%;
+    /*width: auto;*/
+    /*background-position: 0px 60px;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    /*font-size: 30px;*/
+
+}
+/*ON COMPUTER*/
+@media only screen and (min-device-width: 400px) {
+    body {
+        background-image: url("./media/backgroundMap.png");
+    }
+}
+
+h1{
+    font-family: 'Roboto','sans-serif';
+    font-size: 17px;
+    font-weight: 100;
+    color: black;
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display:inline-block;
+}
+
+.pickPathAbout {
+  width:auto;
+  height: 200px;
+  display: block;
+  margin: auto;
+  padding-top: 0px;
+}
+
+/*MOBILE*/
+.pickPath {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+}
+/*WEBSITE*/
+@media only screen and (min-device-width: 400px) {
+  .pickPath {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 180px;
+  }
+}
+
+/*MOBILE*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Roboto','sans-serif';
+    font-size: 60px;
+  	font-weight: 300;
+    background-color: rgba(235, 235, 235, 0.2);
+}
+
+li a:hover {
+    background-color: rgba(235, 235, 235, 0.5);
+    -webkit-transform: translateZ(0);
+    transition: background-color 0.8s ease-out;
+}
+/*WEBSITE*/
+@media only screen and (min-device-width: 400px) {
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+  }
+
+  li a {
+      display: block;
+      text-align: center;
+      color: black;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-family: 'Roboto','sans-serif';
+      font-size: 20px;
+      font-weight: 100;
+  }
+
+  li a:hover {
+      background-color: rgba(235, 235, 235, 0.5);
+      -webkit-transform: translateZ(0);
+      transition: background-color 0.8s ease-out;
+  }
+}
+
+.aboutPara {
+    text-align: center;
+    font-family: 'Roboto','sans-serif';
+    font-size: 18px;
+    line-height: 1.5;
+    color: white;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display:inline-block;
+}
+
+.madeBy {
+  text-align: center;
+  font-family: 'Roboto','sans-serif';
+  font-size: px;
+  line-height: 1.5;
+  color: white;
+}
+
+@media only screen and (min-device-width: 400px) {
+  .madeBy {
+    text-align: center;
+    font-family: 'Roboto','sans-serif';
+    font-size: 14px;
+    line-height: 1.5;
+    color: white;
+  }
+}

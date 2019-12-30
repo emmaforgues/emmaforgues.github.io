@@ -1,0 +1,90 @@
+
+select{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 4;
+  background:#fff;
+  font-family: 'Roboto','sans-serif';
+}
+
+canvas {
+  visibility: visible;
+  position: absolute;
+  z-index: 2;
+}
+
+button {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 4;
+  font-family: 'Roboto','sans-serif';
+}
+
+element {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 4;
+}
+
+img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 4;
+}
+
+h2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 4;
+  background:#000;
+  font-family: 'Roboto','sans-serif';
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+input {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 4;
+  background:#fff;
+
+}
+
+h4 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 4;
+  background:#000;
+  font-family: 'Roboto','sans-serif';
+  font-weight: lighter;
+}
+
+slider {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 4;
+    background:#000;
+}
+
+.zoom{
+visibility: hidden;
+}
+
+.zoom{
+visibility: hidden;
+}
+
+#map {
+  /*width: 1000px;
+  height: 1000px;*/
+  width: 100%;
+  z-index: 1;
+}

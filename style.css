@@ -1,0 +1,441 @@
+.topIndex {
+  margin-top: -300px;
+}
+
+.indexVideo {
+  /* display: block;
+  margin: 0 auto; */
+  /* position: absolute; */
+  top:  50%;
+  left: 50%;
+
+}
+
+.logo{
+  height: 10px;
+  width: auto;
+}
+
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 200;
+  margin-left: 100px;
+  margin-right: 100px;
+  opacity: .8;
+}
+
+body {
+    background:white;
+    color:black;
+    text-align:center;
+    text-align: justify;
+    /* -moz-text-align-last: center;
+    text-align-last: center; */
+}
+
+.subPageContent {
+  margin-top: -245px;
+}
+
+.homeLogo {
+    width: 600px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -140px;
+    /*filter: blur(2px);
+    transition: filter .5s ease-in-out;*/
+}
+
+/*.homeLogo:hover {
+    filter: blur(0px);
+}*/
+
+h1{
+  /* font-family: 'Cutive Mono', monospace; */
+  font-family: 'Ubuntu', sans-serif;
+  color: #0700FE;
+  font-size: 40px;
+	font-weight: 100;
+	margin:30px auto 0 auto;
+	margin-left: 30px;
+	float: left;
+	position: fixed
+}
+
+h4{
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+	font-size: 50px;
+	font-weight: 100;
+	margin:15px;
+	padding: 0px;
+	/*filter: blur(5px);
+    -webkit-transform: translateZ(0);
+    transition: opacity .8s ease-in-out,filter .8s ease-in-out;
+    opacity:.5;
+    -webkit-opacity:.9;*/
+}
+
+/*h2:hover{
+    filter: blur(0);
+    opacity: 1;
+}*/
+
+.concordiaH1 {
+    text-decoration: none;
+    color: black;
+    font-size: 60%;
+}
+
+.goToAbout {
+    text-decoration: none;
+    color: #4300FC;
+    display: block;
+}
+
+.goToIndex {
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding-bottom: 60px;
+}
+
+.centerContent {
+    width: 800px;
+    height: 598px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+}
+
+.hello {
+    margin-bottom: 20px;
+    font-family: 'Cutive Mono', monospace;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.aboutMe {
+    width:auto;
+    height:100px;
+}
+
+.aboutImg {
+    margin-top: 20px;
+    width:90px;
+    height: auto;
+}
+
+
+.backToIndex {
+    text-align: left;
+    margin-left: -10px;
+    margin-right: 0px;
+    display: block;
+    filter: grayscale(100%);
+    margin-bottom: 30px;
+}
+
+.floatingBox {
+    display: inline-block;
+    height: 300px;
+    margin: 110px 60px 0px 60px;
+    padding-left:150px;
+    /*filter: blur(8px);
+    -webkit-transform: translateZ(0);
+    transition: opacity .8s ease-in-out,filter .8s ease-in-out,transform .8s ease-in-out;
+    opacity:.2;
+    -webkit-opacity:.5;*/
+}
+
+.mainPageImages {
+    display: block;
+    /* margin: 0px 0px 0px 0px; */
+    margin-left: -10px;
+    margin-top: -10px;
+    /* padding-left:0px; */
+}
+
+.mainPageImages2 {
+    display: block;
+    /* margin: 0px 0px 0px 0px; */
+    margin-top: -120px;
+    margin-bottom: -10px;
+    padding-left:0px;
+}
+
+.main {
+    /* position: relative; */
+    text-align: left;
+}
+
+.main2 {
+    /* position: relative; */
+    text-align: right;
+}
+
+
+.main img{
+        height: 450px;
+        width:auto;
+}
+
+.main2 img{
+        height: 450px;
+        width:auto;
+}
+
+.main p{
+    /* top: -10px; */
+    /* left: 0; */
+    /* position: relative; */
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+    font-size: 100%;
+    color: black;
+}
+
+/*.img trois{
+  width: 800px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -150px;
+  margin-left: -140px;
+}*/
+
+body trois{
+  background-image: url("./media/trois/trois.png");
+
+    height: 100%;
+    /*width: auto;*/
+    /*background-position: 0px 60px;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.floatingBox:hover {
+    width: auto;
+    /*filter: blur(0);
+    transform: scale(1.2);
+    opacity: 1;*/
+}
+
+.projectTitle {
+    /* font-family: 'Cutive Mono', monospace; */
+    font-family: 'Ubuntu', sans-serif;
+    color: #0700FE;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+}
+
+.paragraphs {
+    /* font-family: 'Cutive Mono', monospace; */
+    font-family: 'Ubuntu', sans-serif;
+    /* color: #4300FC; */
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+    text-indent: 0em;
+    display: block;
+    position: relative;
+    display: block;
+    /* margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+}
+
+/*.paragraphs:hover {
+    filter: blur(0);
+}*/
+
+.list {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+    /*filter: blur(1px);*/
+    /*-webkit-transform: translateZ(0);*/
+    /*transition: filter .5s ease-in-out;*/
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+
+.imgGalleryArtaud{
+    width:auto;
+    height: 200px;
+    transition: transform .5s ease-in-out;
+}
+
+.imgGalleryArtaud:hover {
+    transform: scale(1.3);
+}
+
+.imgGalleryWhip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 400px;
+    width: auto;
+    display: inline-block;
+    transition: box-shadow .3s ease-in-out;
+}
+
+.imgGalleryWhip:hover {
+    box-shadow: 0px 0px 3px 3px #aaaaaa;
+}
+
+
+.floatLeft {
+    padding-bottom:30px;
+}
+
+.imgGalleryMachine {
+    width:auto;
+    height:250px;
+    margin:10px;
+    transition: transform .5s ease-in-out;
+}
+
+.imgGalleryMachine:hover {
+    transform: scale(1.2);
+}
+
+.video {
+    margin-top: 100px;
+}
+
+.videoInternetic {
+    margin-top: 30px;
+}
+
+.gallery {
+    position: relative;
+    height:400px;
+    width:602px;
+    margin:0 auto;
+    z-index: 300000;
+}
+
+.concordiaImg {
+    width:600px;
+    margin-top: 100px;
+}
+
+.concordiaP {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+}
+
+.imgMachine{
+    width:auto;
+    height: 650px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    resize: both;
+    overflow: auto;
+}
+
+.imgPed{
+    width:auto;
+    height: 600px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    resize: both;
+    overflow: auto;
+}
+
+.aboutGlo{
+    width:auto;
+    height: 450px;
+    /* //margin: 20px; */
+}
+
+.concordiaP {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+}
+
+.imgGalleryCon{
+    width:auto;
+    height: 200px;
+    transition: transform .5s ease-in-out;
+}
+
+.imgGalleryCon:hover {
+    transform: scale(1.5);
+}
+
+.concordiaMar {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.projet {
+    position: relative;
+    text-align: center;
+}
+
+.projet a{
+    position:relative;
+
+}
+
+.projet img{
+        height: 550px;
+        display:block;
+        width:auto;
+}
+
+.projet p{
+    top: -10px;
+    left: 0;
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+    font-size: 100%;
+    color: black;
+}
+
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #0700FE;
+    font-weight: 100;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.skillsIcons {
+ height: 30px;
+}
+
+.backToCover {
+    margin-left: 130px;
+    margin-right: 20px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.backToCoverImg {
+    margin-top: 50px;
+    width: 90px;
+}
+
+h5 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
+    margin-left: 100px;
+    margin-right: 100px;
+    opacity: .8;
+}
