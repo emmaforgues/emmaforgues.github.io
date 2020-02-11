@@ -12,8 +12,17 @@
 }
 
 .logo{
-  height: 10px;
+  height: 50px;
   width: auto;
+  padding-right: 35px;
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+
+.logodiv{
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
 }
 
 h2 {
@@ -25,12 +34,11 @@ h2 {
 }
 
 body {
+    margin-left: 2%;
     background:white;
     color:black;
     text-align:center;
     text-align: justify;
-    /* -moz-text-align-last: center;
-    text-align-last: center; */
 }
 
 .subPageContent {
@@ -234,7 +242,7 @@ body trois{
     color: #0700FE;
     margin-left: 10%;
     margin-right: 10%;
-    text-align: left;
+    text-align: justify;
 }
 
 .paragraphs {
@@ -248,10 +256,7 @@ body trois{
     display: block;
     position: relative;
     display: block;
-    /* margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px; */
+    text-align: justify;
 }
 
 /*.paragraphs:hover {
@@ -335,14 +340,13 @@ body trois{
 }
 
 .imgMachine{
-    width:auto;
-    height: 650px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    resize: both;
-    overflow: auto;
+    padding:2.5% 10% 2.5% 10%;
+    position:relative;
+    top:0;
+    left:0;
+    max-width:80%;
+    height:auto;
+    vertical-align: middle;
 }
 
 .imgPed{
