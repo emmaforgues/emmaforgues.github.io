@@ -1,3 +1,18 @@
+.column {
+  margin-left: -30px;
+  margin-top: -15px;
+  float: left;
+  width: 100%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .topIndex {
   margin-top: -300px;
 }
@@ -186,21 +201,6 @@ h4{
 .main2 img{
         height: 500px;
         width:auto;
-}
-
-html, body, #container, #left, #right, #left-image, #right-image {
-    height:10%;
-}
-
-.halfwidthcontainer {
-    float: left;
-    width: 10%;
-}
-
-.image {
-    background-size: container;
-    background-repeat: no-repeat;
-    background-position: 25% 25%;
 }
 
 .main p{
