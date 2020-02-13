@@ -154,7 +154,7 @@ h4{
 .mainPageImages {
     display: block;
     /* margin: 0px 0px 0px 0px; */
-    margin-left: -10px;
+    margin-left: -30px;
     margin-top: -10px;
     /* padding-left:0px; */
 }
@@ -179,13 +179,28 @@ h4{
 
 
 .main img{
-        height: 450px;
+        height: 500px;
         width:auto;
 }
 
 .main2 img{
-        height: 450px;
+        height: 500px;
         width:auto;
+}
+
+html, body, #container, #left, #right, #left-image, #right-image {
+    height:10%;
+}
+
+.halfwidthcontainer {
+    float: left;
+    width: 10%;
+}
+
+.image {
+    background-size: container;
+    background-repeat: no-repeat;
+    background-position: 25% 25%;
 }
 
 .main p{
