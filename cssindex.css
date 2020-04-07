@@ -1,3 +1,8 @@
+@font-face {
+  font-family: futurachapro;
+  src: url(futurachapro-Regular.otf);
+}
+
  body {
   background: url("to---to_inW.png")no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -21,8 +26,7 @@
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
-  font-family: 'futurachapro-Regular';
-  src: url(futurachapro-Regular.otf);
+  font-family: 'futurachapro';
   text-decoration: none;
   font-size: 50px;
   color: #f1f1f1;
