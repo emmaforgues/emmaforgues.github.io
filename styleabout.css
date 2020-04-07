@@ -9,6 +9,9 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  margin-left: 2%;
+  text-align:center;
+  text-align: justify;
 }
 
 .sidenav {
@@ -81,6 +84,7 @@ h3 {
     font-weight: 100;
     margin-left: 20px;
     margin-right: 20px;
+    padding-top: 60px;
 }
 
 .hello {

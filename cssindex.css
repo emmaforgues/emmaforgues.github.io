@@ -9,6 +9,9 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  margin-left: 2%;
+  text-align:center;
+  text-align: justify;
 }
 
 .sidenav {
