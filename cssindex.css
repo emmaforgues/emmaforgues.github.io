@@ -1,6 +1,6 @@
 @font-face {
-  font-family: futurachapro;
-  src: url(futurachapro-Regular.otf);
+  font-family: 'futurachapro';
+  src: url("futurachapro-Regular.otf");
 }
 
  body {
