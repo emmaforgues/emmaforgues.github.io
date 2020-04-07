@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'futurachapro';
+  src: url("futurachapro-Regular.otf");
+}
+
 .sidenav {
   height: 100%;
   width: 0;
@@ -13,7 +18,7 @@
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
-  font-family: 'futurachapro-Regular';
+  font-family: 'futurachapro';
   text-decoration: none;
   font-size: 50px;
   color: #f1f1f1;
@@ -160,8 +165,7 @@ h4{
 }
 
 .goToIndex {
-  font-family: 'futurachapro-Regular';
-  src: url(futurachapro-Regular.otf);
+  font-family: 'futurachapro';
     text-decoration: none;
     display: block;
     color: black;
@@ -184,8 +188,7 @@ h4{
 
 .hello {
     margin-bottom: 20px;
-    font-family: 'futurachapro-Regular';
-    src: url(futurachapro-Regular.otf);
+    font-family: 'futurachapro';
     /* font-weight: 100; */
     font-size: 100px;
 }
@@ -286,8 +289,7 @@ body trois{
 
 .projectTitle {
     /* font-family: 'Cutive Mono', monospace; */
-    font-family: 'futurachapro-Regular';
-    src: url(futurachapro-Regular.otf);
+    font-family: 'futurachapro';
     color: #0700FE;
     margin-left: 10%;
     margin-right: 10%;
@@ -401,8 +403,7 @@ body trois{
 
 .floatingBox {
     margin-top: 70px;
-    font-family: 'futurachapro-Regular';
-    src: url(futurachapro-Regular.otf);
+    font-family: 'futurachapro';
     font-weight: 100;
     font-size:50px;
     color: black;
@@ -478,8 +479,7 @@ body trois{
 }
 
 h3 {
-    font-family: 'futurachapro-Regular';
-    src: url(futurachapro-Regular.otf);
+    font-family: 'futurachapro';
     color: #0700FE;
     font-weight: 100;
     margin-left: 20px;
