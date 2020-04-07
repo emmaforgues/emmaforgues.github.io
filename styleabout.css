@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'futurachapro';
+  src: url("futurachapro-Regular.otf");
+}
+
+ body {
+  background: url("mars2.png")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0000ff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  font-family: 'futurachapro';
+  text-decoration: none;
+  font-size: 50px;
+  color: #f1f1f1;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #a09901;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.projectTitle {
+    /* font-family: 'Cutive Mono', monospace; */
+    font-family: 'futurachapro';
+    color: #0700FE;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    font-size: 35px;
+}
+
+.paragraphs {
+    /* font-family: 'Cutive Mono', monospace; */
+    font-family: 'Ubuntu', sans-serif;
+    /* color: #4300FC; */
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+    text-indent: 0em;
+    display: block;
+    position: relative;
+    display: block;
+    text-align: justify;
+}
+
+h3 {
+    font-family: 'futurachapro';
+    color: #0700FE;
+    font-weight: 100;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.hello {
+  margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: 'futurachapro';
+    /* font-weight: 100; */
+    font-size: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
