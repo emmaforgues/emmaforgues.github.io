@@ -5,7 +5,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #0700FE;
+  background-color: #0000ff;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -13,16 +13,16 @@
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'futurachapro-Regular';
   text-decoration: none;
-  font-size: 25px;
+  font-size: 50px;
   color: #f1f1f1;
   display: block;
   transition: 0.3s;
 }
 
 .sidenav a:hover {
-  color: #818181;
+  color: #a09901;
 }
 
 .sidenav .closebtn {
@@ -98,7 +98,7 @@ body {
 }
 
 .subPageContent {
-  margin-top: -245px;
+  margin-top: -80px;
 }
 
 .homeLogo {
@@ -160,10 +160,12 @@ h4{
 }
 
 .goToIndex {
+  font-family: 'futurachapro-Regular';
     text-decoration: none;
     display: block;
     color: black;
     padding-bottom: 60px;
+    font-size: 80px;
 }
 
 .centerContent {
@@ -181,9 +183,9 @@ h4{
 
 .hello {
     margin-bottom: 20px;
-    font-family: 'Cutive Mono', monospace;
-    font-weight: 100;
-    font-size: 50px;
+    font-family: 'futurachapro-Regular';
+    /* font-weight: 100; */
+    font-size: 100px;
 }
 
 .aboutMe {
@@ -282,11 +284,12 @@ body trois{
 
 .projectTitle {
     /* font-family: 'Cutive Mono', monospace; */
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'futurachapro-Regular';
     color: #0700FE;
     margin-left: 10%;
     margin-right: 10%;
     text-align: justify;
+    font-size: 35px;
 }
 
 .paragraphs {
@@ -395,11 +398,15 @@ body trois{
 
 .floatingBox {
     margin-top: 70px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'futurachapro-Regular';
     font-weight: 100;
-    font-size:100%;
+    font-size:50px;
     color: black;
     text-align: center;
+}
+
+.floatingText p{
+  padding-top: -500px;
 }
 
 /* .projet {
@@ -407,10 +414,10 @@ body trois{
     text-align: center;
 } */
 
-.projet a{
+/* .projet a{
     position:relative;
 
-}
+} */
 
 .projet img{
         display: block;
@@ -419,6 +426,7 @@ body trois{
         position:relative;
         top:0;
         left:0;
+        margin-bottom: -40px;
         max-width:100%;
         height:auto;
         /* vertical-align: middle; */
@@ -466,7 +474,7 @@ body trois{
 }
 
 h3 {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'futurachapro-Regular';
     color: #0700FE;
     font-weight: 100;
     margin-left: 20px;

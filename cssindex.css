@@ -1,5 +1,5 @@
  body {
-  background: url("to---to_in.png")no-repeat center center fixed;
+  background: url("to---to_inW.png")no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -13,7 +13,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #0700FE;
+  background-color: #0000ff;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -21,16 +21,16 @@
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'futurachapro-Regular';
   text-decoration: none;
-  font-size: 25px;
+  font-size: 50px;
   color: #f1f1f1;
   display: block;
   transition: 0.3s;
 }
 
 .sidenav a:hover {
-  color: #818181;
+  color: #a09901;
 }
 
 .sidenav .closebtn {
