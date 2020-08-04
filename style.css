@@ -3,6 +3,21 @@
   src: url("futurachapro-Regular.otf");
 }
 
+@font-face {
+  font-family: 'mantra';
+  src: url("MantraAlt.otf");
+}
+
+@font-face {
+  font-family: 'modern';
+  src: url("GalleryModern.otf");
+}
+
+@font-face {
+  font-family: 'ambiant';
+  src: url("Ambiant-Light.ttf");
+}
+
 .sidenav {
   height: 100%;
   width: 0;
@@ -87,7 +102,7 @@
 }
 
 h2 {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'ambiant', sans-serif;
   font-weight: 200;
   margin-left: 100px;
   margin-right: 100px;
@@ -128,7 +143,7 @@ body {
 
 h1{
   /* font-family: 'Cutive Mono', monospace; */
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'ambiant', sans-serif;
   color: #0700FE;
   font-size: 40px;
 	font-weight: 100;
@@ -140,7 +155,7 @@ h1{
 
 h4{
   text-decoration: none;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'ambiant', sans-serif;
 	font-size: 50px;
 	font-weight: 100;
 	margin:15px;
@@ -187,13 +202,13 @@ h4{
     left: 0;
     right: 0;
     margin: auto;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'ambiant', sans-serif;
     font-weight: 100;
 }
 
 .hello {
     margin-bottom: 20px;
-    font-family: 'futurachapro';
+    font-family: 'modern';
     /* font-weight: 100; */
     font-size: 100px;
 }
@@ -260,7 +275,7 @@ h4{
     /* top: -10px; */
     /* left: 0; */
     /* position: relative; */
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'ambiant', sans-serif;
     font-weight: 100;
     font-size: 100%;
     color: black;
@@ -294,7 +309,7 @@ body trois{
 
 .projectTitle {
     /* font-family: 'Cutive Mono', monospace; */
-    font-family: 'futurachapro';
+    font-family: 'modern';
     color: #0700FE;
     margin-left: 10%;
     margin-right: 10%;
@@ -304,7 +319,7 @@ body trois{
 
 .paragraphs {
     /* font-family: 'Cutive Mono', monospace; */
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'ambiant', sans-serif;
     /* color: #4300FC; */
     margin-left: 10%;
     margin-right: 10%;
@@ -321,7 +336,7 @@ body trois{
 }*/
 
 .list {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'ambiant', sans-serif;
     font-weight: 100;
     /*filter: blur(1px);*/
     /*-webkit-transform: translateZ(0);*/
@@ -392,7 +407,7 @@ body trois{
 }
 
 .concordiaP {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'ambiant', sans-serif;
     font-weight: 100;
 }
 
@@ -408,7 +423,7 @@ body trois{
 
 .floatingBox {
     margin-top: 0px;
-    font-family: 'futurachapro';
+    font-family: 'modern';
     font-weight: 100;
     font-size:50px;
     color: black;
@@ -464,7 +479,7 @@ body trois{
 }
 
 .concordiaP {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'ambiant', sans-serif;
     font-weight: 100;
 }
 
@@ -484,7 +499,7 @@ body trois{
 }
 
 h3 {
-    font-family: 'futurachapro';
+    font-family: 'modern';
     color: #0700FE;
     font-weight: 100;
     margin-left: 20px;
@@ -508,7 +523,7 @@ h3 {
 }
 
 h5 {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'ambiant', sans-serif;
     font-weight: 200;
     margin-left: 100px;
     margin-right: 100px;

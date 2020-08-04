@@ -3,6 +3,21 @@
   src: url("futurachapro-Regular.otf");
 }
 
+@font-face {
+  font-family: 'mantra';
+  src: url("MantraAlt.otf");
+}
+
+@font-face {
+  font-family: 'modern';
+  src: url("GalleryModern.otf");
+}
+
+@font-face {
+  font-family: 'ambiant';
+  src: url("Ambiant-Light.ttf");
+}
+
  body {
   background: url("mars2.png")no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -56,7 +71,7 @@
 
 .projectTitle {
     /* font-family: 'Cutive Mono', monospace; */
-    font-family: 'futurachapro';
+    font-family: 'modern';
     color: #0700FE;
     margin-left: 10%;
     margin-right: 10%;
@@ -66,7 +81,7 @@
 
 .paragraphs {
     /* font-family: 'Cutive Mono', monospace; */
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'ambiant', sans-serif;
     /* color: #4300FC; */
     margin-left: 10%;
     margin-right: 10%;
@@ -79,7 +94,7 @@
 }
 
 h3 {
-    font-family: 'futurachapro';
+    font-family: 'mantra';
     color: #0700FE;
     font-weight: 100;
     margin-left: 20px;
@@ -90,7 +105,7 @@ h3 {
 .hello {
   margin-top: 0px;
     margin-bottom: 20px;
-    font-family: 'futurachapro';
+    font-family: 'modern';
     /* font-weight: 100; */
     font-size: 100px;
     margin-left: 10%;
