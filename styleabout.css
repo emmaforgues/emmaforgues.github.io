@@ -53,7 +53,7 @@
 }
 
 .sidenav a:hover {
-  color: #a09901;
+  color: #FF0000;
 }
 
 .sidenav .closebtn {
@@ -81,8 +81,8 @@
 
 .paragraphs {
     /* font-family: 'Cutive Mono', monospace; */
-    font-family: 'ambiant', sans-serif;
-    /* color: #4300FC; */
+    font-family: 'ambiant';
+    font-size: 20px;
     margin-left: 10%;
     margin-right: 10%;
     text-align: left;
@@ -91,6 +91,11 @@
     position: relative;
     display: block;
     text-align: justify;
+}
+
+::selection{
+  text-shadow: 1px 1px 0 #FF0000;
+  /* color: 	#FC4445; */
 }
 
 h3 {
