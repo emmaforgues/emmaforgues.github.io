@@ -451,7 +451,8 @@ color: black;
 }
 
 .imgMachine{
-    padding:2.5% 10% 2.5% 10%;
+    /* padding:2.5% 10% 2.5% 10%; */
+    margin:2.5% 10% 2.5% 10%;
     position:relative;
     top:0;
     left:0;
