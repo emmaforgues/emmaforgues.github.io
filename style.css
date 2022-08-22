@@ -18,6 +18,31 @@
   src: url("Ambiant-Light.ttf");
 }
 
+@font-face {
+  font-family: 'golia';
+  src: url("GoliaGolia-Sharp.otf");
+}
+
+@font-face {
+  font-family: 'gangitem';
+  src: url("Gangitem.otf");
+}
+
+@font-face {
+  font-family: 'argue';
+  src: url("Argue DEMO.otf");
+}
+
+@font-face {
+  font-family: 'over';
+  src: url("Over There.ttf");
+}
+
+@font-face {
+  font-family: 'paladin';
+  src: url("paladins3D.ttf");
+}
+
 .sidenav {
   height: 100%;
   width: 0;
@@ -25,24 +50,34 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #0000ff;
+  background-color: rgba(0, 0, 0, 0.9);;
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: 0.8s;
   padding-top: 60px;
 }
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
-  font-family: 'futurachapro';
+  font-family: 'paladin';
   text-decoration: none;
-  font-size: 50px;
-  color: #f1f1f1;
+  font-size: 20px;
+  color: white;
   display: block;
-  transition: 0.3s;
+  transition: 0.8s;
 }
 
 .sidenav a:hover {
-  color: #FF0000;
+  color: #8DB600;
+}
+
+::selection{
+  text-shadow: 1px 1px 0 #8DB600;
+  color: 	#CBC3E3;
+}
+
+a {
+  color: #8DB600;
+  text-shadow: 0 0 20px #CBC3E3
 }
 
 .sidenav .closebtn {
@@ -76,15 +111,6 @@
 
 .topIndex {
   margin-top: -300px;
-}
-
-.indexVideo {
-  /* display: block;
-  margin: 0 auto; */
-  /* position: absolute; */
-  top:  50%;
-  left: 50%;
-
 }
 
 .logo{
@@ -144,7 +170,7 @@ body {
 h1{
   /* font-family: 'Cutive Mono', monospace; */
   font-family: 'ambiant', sans-serif;
-  color: #0700FE;
+  color: black;
   font-size: 40px;
 	font-weight: 100;
 	margin:30px auto 0 auto;
@@ -185,12 +211,14 @@ h4{
 }
 
 .goToIndex {
-  font-family: 'futurachapro';
+  font-family: 'paladin';
     text-decoration: none;
     display: block;
     color: black;
     padding-bottom: 60px;
     font-size: 80px;
+    margin-left: -25px;
+    margin-top: -25px;
 }
 
 .centerContent {
@@ -208,7 +236,7 @@ h4{
 
 .hello {
     margin-bottom: 20px;
-    font-family: 'modern';
+    font-family: 'paladin';
     /* font-weight: 100; */
     font-size: 100px;
 }
@@ -294,7 +322,8 @@ body trois{
   background-image: url("./media/trois/trois.png");
 
     height: 100%;
-    /*width: auto;*/
+    /*width: auto;
+    */
     /*background-position: 0px 60px;*/
     background-repeat: no-repeat;
     background-size: cover;
@@ -309,21 +338,21 @@ body trois{
 
 .projectTitle {
     /* font-family: 'Cutive Mono', monospace; */
-    font-family: 'modern';
-    color: #0700FE;
+    font-family: 'paladin';
+    color: black;
     margin-left: 10%;
     margin-right: 10%;
     text-align: justify;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .projectTitleShe {
-    font-family: 'modern';
-    color: #0700FE;
+    font-family: 'ambiant';
+    color: black;
     /* color: black; */
-    font-size: 25px;
-    margin-left: 14%;
-    margin-right: 14%;
+    font-size: 20px;
+    margin-left: 22%;
+    margin-right: 22%;
     text-align: left;
     text-indent: 0em;
     display: block;
@@ -333,12 +362,12 @@ body trois{
 }
 
 .projectTitleShePHASE h2 {
-  font-family: 'modern';
-  font-size: 45px;
-  color: #0700FE;
+  font-family: 'paladin';
+  font-size: 40px;
+  color: black;
   /* color: black; */
-  margin-left: 14%;
-  margin-right: 14%;
+  margin-left: 22%;
+  margin-right: 22%;
   text-align: left;
   text-indent: 0em;
   display: block;
@@ -346,9 +375,9 @@ body trois{
   text-align: justify;
 }
 
-.projectTitleShe:hover {
-color: black;
-}
+/* .projectTitleShe:hover {
+color: blue;
+} */
 
 .paragraphs {
     /* font-family: 'Cutive Mono', monospace; */
@@ -363,11 +392,6 @@ color: black;
     position: relative;
     display: block;
     text-align: justify;
-}
-
-::selection{
-  text-shadow: 1px 1px 0 #FF0000;
-  /* color: 	#FC4445; */
 }
 
 /*.paragraphs:hover {
@@ -463,15 +487,16 @@ color: black;
 
 .floatingBox {
     margin-top: 0px;
-    font-family: 'modern';
+    margin-bottom: 40px;
+    font-family: 'paladin';
     font-weight: 100;
-    font-size:50px;
+    font-size:25px;
     color: black;
     text-align: center;
 }
 
 .floatingText p{
-  padding-top: -500px;
+  /* padding-top: -500px; */
 }
 
 /* .projet {
@@ -491,7 +516,7 @@ color: black;
         position:relative;
         top:0;
         left:0;
-        margin-bottom: -40px;
+        margin-bottom: -15px;
         max-width:100%;
         height:auto;
         /* vertical-align: middle; */
@@ -499,7 +524,8 @@ color: black;
 
 .projet p{
     top: -100px;
-    color: #0700FE;
+    /* color: #0700FE; */
+    color: black;
 }
 
 .imgPed{
@@ -540,8 +566,8 @@ color: black;
 }
 
 h3 {
-    font-family: 'modern';
-    color: #0700FE;
+    font-family: 'paladin';
+    color: black;
     font-weight: 100;
     margin-left: 20px;
     margin-right: 20px;

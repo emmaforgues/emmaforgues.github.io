@@ -18,12 +18,22 @@
   src: url("Ambiant-Light.ttf");
 }
 
+@font-face {
+  font-family: 'golia';
+  src: url("GoliaGolia-Sharp.otf");
+}
+
+@font-face {
+  font-family: 'over';
+  src: url("Over There.ttf");
+}
+
+@font-face {
+  font-family: 'paladin';
+  src: url("paladins3D.ttf");
+}
+
  body {
-  background: url("mars2.png")no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   margin-left: 2%;
   text-align:center;
   text-align: justify;
@@ -36,24 +46,34 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #0000ff;
+  background-color: rgba(0, 0, 0, 0.9);;
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: 0.8s;
   padding-top: 60px;
 }
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
-  font-family: 'futurachapro';
+  font-family: 'paladin';
   text-decoration: none;
-  font-size: 50px;
-  color: #f1f1f1;
+  font-size: 20px;
+  color: white;
   display: block;
-  transition: 0.3s;
+  transition: 0.8s;
 }
 
 .sidenav a:hover {
-  color: #FF0000;
+  color: #8DB600;
+}
+
+::selection{
+  text-shadow: 1px 1px 0 #8DB600;
+  color: 	#CBC3E3;
+}
+
+a {
+  color: #8DB600;
+  text-shadow: 0 0 20px #CBC3E3
 }
 
 .sidenav .closebtn {
@@ -69,20 +89,60 @@
   .sidenav a {font-size: 18px;}
 }
 
+/* mark {
+  background-color: rgba(0,0,0,.2);
+  color: white;
+  opacity: 100%;
+  line-height: 1.5;
+  font-size: 25px;
+} */
+
 .projectTitle {
     /* font-family: 'Cutive Mono', monospace; */
-    font-family: 'modern';
-    color: #0700FE;
-    margin-left: 10%;
-    margin-right: 10%;
+    font-family: 'paladin';
+    color: black;
+    margin-left: 22%;
+    margin-right: 22%;
     text-align: justify;
-    font-size: 35px;
+    font-size: 25px;
+}
+
+.projectTitleShe {
+    font-family: 'ambiant';
+    font-size: 25px;
+    color: black;
+    /* color: black; */
+    margin-left: 22%;
+    margin-right: 22%;
+    text-align: left;
+    text-indent: 0em;
+    display: block;
+    position: relative;
+    text-align: justify;
+    transition: color .5s;
+}
+.projectTitleShePHASE h2 {
+  /* font-family: 'over';
+  font-size: 45px;
+  color: black; */
+  /* color: black; */
+  /* margin-left: 14%;
+  margin-right: 14%;
+  text-align: left;
+  text-indent: 0em;
+  display: block;
+  position: relative;
+  text-align: justify; */
+}
+
+.projectTitleShe:hover {
+/* color: #0700FE; */
 }
 
 .paragraphs {
     /* font-family: 'Cutive Mono', monospace; */
-    font-family: 'ambiant';
-    font-size: 20px;
+    /* font-family: 'ambiant';
+    font-size: 10px;
     margin-left: 10%;
     margin-right: 10%;
     text-align: left;
@@ -90,17 +150,11 @@
     display: block;
     position: relative;
     display: block;
-    text-align: justify;
-}
-
-::selection{
-  text-shadow: 1px 1px 0 #FF0000;
-  /* color: 	#FC4445; */
+    text-align: justify; */
 }
 
 h3 {
-    font-family: 'mantra';
-    color: #0700FE;
+    color: black;
     font-weight: 100;
     margin-left: 20px;
     margin-right: 20px;
@@ -108,12 +162,12 @@ h3 {
 }
 
 .hello {
-  margin-top: 0px;
+    margin-top: 0px;
     margin-bottom: 20px;
-    font-family: 'modern';
+    font-family: 'paladin';
     /* font-weight: 100; */
     font-size: 100px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 21%;
+    margin-right: 22%;
     text-align: justify;
 }

@@ -3,8 +3,13 @@
   src: url("futurachapro-Regular.otf");
 }
 
+@font-face {
+  font-family: 'paladin';
+  src: url("paladins3D.ttf");
+}
+
  body {
-  background: url("to---to_inW.png")no-repeat center center fixed;
+  background: url("still_3.png")no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -21,24 +26,20 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #0000ff;
+  background-color: rgba(0, 0, 0, 0.9);;
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: 0.8s;
   padding-top: 60px;
 }
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
-  font-family: 'futurachapro';
+  font-family: 'paladin';
   text-decoration: none;
-  font-size: 50px;
-  color: #f1f1f1;
+  font-size: 20px;
+  color: white;
   display: block;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color: #FF0000;
+  transition: 0.8s;
 }
 
 .sidenav .closebtn {
@@ -48,6 +49,21 @@
   font-size: 36px;
   margin-left: 50px;
 }
+
+.sidenav a:hover {
+  color: #8DB600;
+}
+
+::selection{
+  text-shadow: 1px 1px 0 #8DB600;
+  color: 	#CBC3E3;
+}
+
+a {
+  color: #8DB600;
+  text-shadow: 0 0 20px #CBC3E3
+}
+
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
