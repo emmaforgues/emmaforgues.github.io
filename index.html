@@ -1,45 +1,162 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <link rel="stylesheet" href="cssindex.css" type="text/css" />
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <!-- <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Lato|Merriweather:300,400|Noto+Serif|Open+Sans|Roboto:300|Scope+One" rel="stylesheet"> -->
-        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-    </head>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <!-- <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Lato|Merriweather:300,400|Noto+Serif|Open+Sans|Roboto:300|Scope+One" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
 
-    <body>
-      <style>
-      @font-face {
-        font-family: 'futurachapro';
-        src: url("futurachapro-Regular.otf");
+  <style>
+
+  @font-face {
+    font-family: 'ambiant';
+    src: url("Ambiant-Light.ttf");
+  }
+
+  header {
+    text-align: center;
+    padding: 20px;
+  }
+
+  body {
+    font-family: ambiant;
+    margin: 0;
+    padding: 0;
+    color: black; /* Set your desired text color */
+  }
+
+  .main-container{
+    display: grid;
+    /* place-items: center; */
+    height: 100vh; /* Adjust the height as needed */
+    align-content: space-evenly;
+    overflow: hidden; /* Hide any overflow content */
+  }
+  /* Container styles */
+  .scrolling-text-container {
+      background-color: black;
+      /* border-radius: 4px; */
+      overflow: hidden;
+  }
+
+  /* Inner container styles */
+  .scrolling-text-inner {
+      display: flex;
+      white-space: nowrap;
+      font-size: 50px;
+      font-family: 'ambiant', sans-serif;
+      font-weight: 200;
+      padding: 8px 0;
+  }
+
+  /* Text styles */
+  .scrolling-text {
+      display: flex;
+      font-weight: 100;
+  }
+
+  .scrolling-text-item {
+      padding: 0 50px;
+  }
+
+  section {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+  }
+
+  a {
+    color: white; /* Set your default link color */
+    text-decoration: none; /* Remove underline, if desired */
+  }
+
+  /* Style for the link when hovering, excluding images */
+  a:not(:has(img)):hover {
+    color: yellow; /* Set the text color to white on hover */
+    text-decoration: none; /* Add underline on hover */
+  }
+
+  ::selection {
+    background-color: yellow;
+  }
+
+  /* Apply the animation to the text items */
+  .scrolling-text-inner>div {
+      animation: var(--direction) var(--marquee-speed) linear infinite;
+      animation-delay: -2s;
+  }
+
+  /* Pause the animation when a user hovers over it */
+  .scrolling-text-container:hover .scrolling-text-inner>div {
+      animation-play-state: paused;
+  }
+
+  /* Setting the Animation using Keyframes */
+  @keyframes scroll-left {
+      0% {
+          transform: translateX(0%);
       }
-      @font-face {
-        font-family: 'paladin';
-        src: url("paladins3D.ttf");
+
+      100% {
+          transform: translateX(-100%);
       }
-      </style>
+  }
 
-      <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="emma">emma_forgues</a>
-        <a href="shephase">she.PHASE</a>
-        <a href="about">hello</a>
-      </div>
+  @keyframes scroll-right {
+      0% {
+          transform: translateX(-100%);
+      }
 
-      <span style="font-family: 'paladin';font-size:80px;position:fixed;cursor:pointer" onclick="openNav()"> < </span>
+      100% {
+          transform: translateX(0%);
+      }
+  }
 
+  </style>
+  <body>
+  <div class="main-container">
+  <div class="scrolling-text-container">
+        <div class="scrolling-text-inner" style="--marquee-speed: 40s; --direction:scroll-left" role="marquee">
+            <div class="scrolling-text">
+              <div class="scrolling-text-item"><a href="emma">EMMA FORGUES</a></div>
+              <div class="scrolling-text-item"><a href="emma">EMMA FORGUES</a></div>
+              <div class="scrolling-text-item"><a href="emma">EMMA FORGUES</a></div>
+              <div class="scrolling-text-item"><a href="emma">EMMA FORGUES</a></div>
+              <div class="scrolling-text-item"><a href="emma">EMMA FORGUES</a></div>
+              <div class="scrolling-text-item"><a href="emma">EMMA FORGUES</a></div>
+              <div class="scrolling-text-item"><a href="emma">EMMA FORGUES</a></div>
+              <div class="scrolling-text-item"><a href="emma">EMMA FORGUES</a></div>
+                <!-- Add content related to EMMA FORGUES -->
+  </div>
+  </div>
+  </div>
 
-<script>
-function openNav() {
-  document.getElementById("mySidenav").style.width = "325px";
-}
+  <section>
+  <img src="./media/v-02.png" alt="v" width="80">
+  </section>
 
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
-</script>
-
-    </body>
+  <div class="scrolling-text-container">
+        <div class="scrolling-text-inner" style="--marquee-speed: 35s; --direction:scroll-right" role="marquee">
+            <div class="scrolling-text">
+              <div class="scrolling-text-item"><a href="shephase">she.PHASE</a></div>
+              <div class="scrolling-text-item"><a href="shephase">she.PHASE</a></div>
+              <div class="scrolling-text-item"><a href="shephase">she.PHASE</a></div>
+              <div class="scrolling-text-item"><a href="shephase">she.PHASE</a></div>
+              <div class="scrolling-text-item"><a href="shephase">she.PHASE</a></div>
+              <div class="scrolling-text-item"><a href="shephase">she.PHASE</a></div>
+              <div class="scrolling-text-item"><a href="shephase">she.PHASE</a></div>
+              <div class="scrolling-text-item"><a href="shephase">she.PHASE</a></div>
+              <div class="scrolling-text-item"><a href="shephase">she.PHASE</a></div>
+              <div class="scrolling-text-item"><a href="shephase">she.PHASE</a></div>
+              <div class="scrolling-text-item"><a href="shephase">she.PHASE</a></div>
+              <div class="scrolling-text-item"><a href="shephase">she.PHASE</a></div>
+              <!-- Add content related to she.PHASE -->
+            </div>
+</div>
+</div>
+</div>
+  </body>
 
 </html>

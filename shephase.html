@@ -2,11 +2,11 @@
 <html>
 
     <head>
-        <link rel="stylesheet" href="style.css" type="text/css" />
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-        <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="style.css" type="text/css" />
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
@@ -17,15 +17,58 @@
       }
       </style>
 
-        <!-- <h1><a class="goToAbout" href="about"> > m</a></h1> -->
-        <div id="mySidenav" class="sidenav">
+        <!-- <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="index">home</a>
         <a href="emma">emma_forgues</a>
         <a href="about">hello</a>
+        </div> -->
+
+        <!-- <span style="font-family: 'hel';font-size:80px;position:fixed;cursor:pointer" onclick="openNav()"> < </span> -->
+
+        <div class="subPageContent">
+
+        <div class="projectTitleShePHASE">
+        <h2>she.PHASE</h2>
         </div>
 
-        <span style="font-family: 'paladin';font-size:80px;position:fixed;cursor:pointer" onclick="openNav()"> < </span>
+        <div class="projectTitleShe">
+        <p><b>she.PHASE</b> is a collaboration between <a href="https://emmaforgues.ca/">Emma Forgues</a> and <a href="http://sambourgault.com/">Sam Bourgault</a>. Both studying Computation Arts, their heterogenous experience, from art to science, leads to a diversified approach in their artistic practice. Their common interests involve the body, cybernetics, interactivity, both in the real and in the virtual world.</p>
+        <p>As she.PHASE, they have performed in multiple events in Montreal: MUTEK (2017), InnerEchoes (2017, 2018), VAULT (2018-2020), LIP (2018), Algorave (2018), Slut Island Festival (2019), Suoni Per Il Popolo (2019) and more.</p>
+        <p> > <a href="mailto: she.phase@gmail.com">she.phase@gmail.com</a></p>
+        </div>
+        <br>
+
+        <div class="projet floatingBox">
+        <a href="bubblegum"><img <img class="rounded-image" src="./media/index/bubblegum.png"></img></a>
+        <p><a href="bubblegum"><i>The Flesh of the World: Bubblegum</i></a></p>
+        </div>
+
+        <div class="projet floatingBox">
+        <a href="fleshoftheworld"><img <img class="rounded-image" src="./media/fleshoftheworld.png"></img></a>
+        <p><a href="fleshoftheworld"><i>The Flesh of the World</i></a></p>
+        </div>
+
+        <div class="projet floatingBox">
+        <a href="phaseandgolpesar"><img <img class="rounded-image" src="./media/withGolpesar.jpg"></img></a>
+        <p><a href="phaseandgolpesar"><i>Golpesar & she.PHASE</i></a></p>
+        </div>
+
+        <div class="projet floatingBox">
+        <a href="gymnasium"><img <img class="rounded-image" src="./media/gymnasium.png"></img></a>
+        <p><a href="gymnasium"><i>Gymnasium [she.PHASE + Otto Moss]</i></a></p>
+        </div>
+
+        <div class="projet floatingBox">
+        <a href="proxdance"><img <img class="rounded-image" src="./media/index/proxDance2.png"></img></a>
+        <p><a href="proxdance"><i>prox.Dance</i></a></p>
+        </div>
+
+        <div class="projet floatingBox">
+        <a href="carcassesSolubles"><img <img class="rounded-image" src="./media/index/carcasses1.png"></img></a>
+        <p><a href="carcassesSolubles"><i>carcassesSolubles</i></a></p>
+        </div>
+        </div>
 
         <script>
         function openNav() {
@@ -35,82 +78,17 @@
         function closeNav() {
         document.getElementById("mySidenav").style.width = "0";
         }
+
+        document.addEventListener('DOMContentLoaded', function () {
+          var imageContainers = document.querySelectorAll('.rounded-image');
+
+          imageContainers.forEach(function (container) {
+            // Generate a random border-radius value between 20 and 50 pixels
+            var randomBorderRadius = Math.floor(Math.random() * 80 + 5) + 'px';
+            container.style.borderRadius = randomBorderRadius;
+          });
+        });
         </script>
-
-        <!-- <div class="paragraphs">
-        <p>she.PHASE is a collaboration between Emma Forgues and Sam Bourgault. Both studying Computation Arts, their heterogenous experience, from art to science, leads to a diversified approach in their artistic practice. Their common interests involve the body, cybernetics, interactivity, both in the real and in the virtual world.</p>
-        </div> -->
-
-        <div class="subPageContent">
-
-          <div class="projectTitleShePHASE">
-            <h2>she.PHASE</h2>
-          </div>
-
-          <div class="projectTitleShe">
-          <p><b>she.PHASE</b> is a collaboration between <a href="https://emmaforgues.ca/">Emma Forgues</a> and <a href="http://sambourgault.com/">Sam Bourgault</a>. Both studying Computation Arts, their heterogenous experience, from art to science, leads to a diversified approach in their artistic practice. Their common interests involve the body, cybernetics, interactivity, both in the real and in the virtual world.</p>
-          <p>As she.PHASE, they have performed in multiple events in Montreal: MUTEK (2017), InnerEchoes (2017, 2018), VAULT (2018-2020), LIP (2018), Algorave (2018), Slut Island Festival (2019), Suoni Per Il Popolo (2019) and more.</p>
-          <p> > <a href="mailto: she.phase@gmail.com">she.phase@gmail.com</a></p>
-          </div>
-          <br>
-          <br>
-          <br>
-
-        <div class="projet floatingBox">
-        <a href="bubblegum"><img src="./media/index/bubblegum.png"></img></a>
-        <p>The Flesh of the World: Bubblegum</p>
-        </div>
-
-        <div class="projet floatingBox">
-        <a href="fleshoftheworld"><img src="./media/fleshoftheworld.png"></img></a>
-        <p>The Flesh of the World</p>
-        </div>
-
-        <div class="projet floatingBox">
-        <a href="phaseandgolpesar"><img src="./media/withGolpesar.jpg"></img></a>
-        <p>Golpesar & she.PHASE</p>
-        </div>
-
-        <div class="projet floatingBox">
-        <a href="gymnasium"><img src="./media/gymnasium.png"></img></a>
-        <p>Gymnasium [she.PHASE + Otto Moss]</p>
-        </div>
-
-        <!-- <div class="projet floatingBox">
-        <a href="bodydata"><img src="./media/bodydata.png"></img></a>
-        <p>Body-Data [soft.PHASE]</p>
-        </div> -->
-
-        <!-- <div class="projet floatingBox">
-        <a href="carcasses"><img src="./media/index/carcasses2.png"></img></a>
-        <p>carcassesSolubles</p>
-        </div> -->
-
-        <div class="projet floatingBox">
-        <a href="proxdance"><img src="./media/index/proxDance2.png"></img></a>
-        <p>prox.Dance</p>
-        </div>
-
-        <!-- <div class="projet floatingBox">
-        <a href="tentaculaire"><img src="./media/index/tentaculaire.png"></img></a>
-        <p>Tentaculaire</p>
-        </div> -->
-
-        <div class="projet floatingBox">
-        <a href="carcassesSolubles"><img src="./media/index/carcasses1.png"></img></a>
-        <p>carcassesSolubles</p>
-        </div>
-
-        <!-- <div class="projet floatingBox">
-        <a href="flux"><img src="./media/index/flux.png"></img></a>
-        <p>FLUX</p>
-        </div> -->
-
-        </div>
-
-<br>
-
-        <script type ="text/javascript" src="canvas.js"></script>
 
     </body>
 
