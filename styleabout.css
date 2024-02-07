@@ -29,15 +29,33 @@
 }
 
 @font-face {
-  font-family: 'paladin';
-  src: url("paladins.ttf");
+  font-family: 'hel';
+  src: url("Helveticamazing.ttf");
+}
+
+@font-face {
+  font-family: 'Arsenica';
+  src: url("bahnschrift.ttf");
 }
 
  body {
-  margin-left: 2%;
-  text-align:center;
-  text-align: justify;
+   margin-left: 2%;
+   background:white;
+   color:black;
 }
+
+a {
+  color: black; /* Set your default link color */
+  text-decoration: underline; /* Remove underline, if desired */
+}
+
+/* Style for the link when hovering */
+a:hover {
+  color: white; /* Set the text color to white on hover */
+  background-color: black; /* Set the background color to black on hover */
+  text-decoration: none;
+}
+
 
 .sidenav {
   height: 100%;
@@ -54,7 +72,7 @@
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
-  font-family: 'paladin';
+  font-family: 'hel';
   text-decoration: none;
   font-size: 20px;
   color: white;
@@ -64,16 +82,6 @@
 
 .sidenav a:hover {
   color: #8DB600;
-}
-
-::selection{
-  text-shadow: 1px 1px 0 #8DB600;
-  color: 	#CBC3E3;
-}
-
-a {
-  color: #8DB600;
-  text-shadow: 0 0 20px #CBC3E3
 }
 
 .sidenav .closebtn {
@@ -99,7 +107,7 @@ a {
 
 .projectTitle {
     /* font-family: 'Cutive Mono', monospace; */
-    font-family: 'paladin';
+    font-family: 'ambiant';
     color: black;
     margin-left: 22%;
     margin-right: 22%;
@@ -109,7 +117,7 @@ a {
 
 .projectTitleShe {
     font-family: 'ambiant';
-    font-size: 25px;
+    font-size: 20px;
     color: black;
     /* color: black; */
     margin-left: 22%;
@@ -164,7 +172,7 @@ h3 {
 .hello {
     margin-top: 0px;
     margin-bottom: 20px;
-    font-family: 'paladin';
+    font-family: 'ambiant';
     /* font-weight: 100; */
     font-size: 100px;
     margin-left: 21%;

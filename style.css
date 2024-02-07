@@ -1,3 +1,13 @@
+
+@font-face {
+  font-family: 'Arsenica';
+  src: url("Ambiant-Light.ttf");
+}
+
+@font-face {
+  font-family: 'hel';
+  src: url("Helveticamazing.ttf");
+}
 @font-face {
   font-family: 'futurachapro';
   src: url("futurachapro-Regular.otf");
@@ -58,7 +68,7 @@
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
-  font-family: 'paladin';
+  font-family: 'hel';
   text-decoration: none;
   font-size: 20px;
   color: white;
@@ -68,16 +78,6 @@
 
 .sidenav a:hover {
   color: #8DB600;
-}
-
-::selection{
-  text-shadow: 1px 1px 0 #8DB600;
-  color: 	#CBC3E3;
-}
-
-a {
-  color: #8DB600;
-  text-shadow: 0 0 20px #CBC3E3
 }
 
 .sidenav .closebtn {
@@ -93,7 +93,6 @@ a {
   .sidenav a {font-size: 18px;}
 }
 
-
 .column {
   margin-left: -30px;
   margin-top: -15px;
@@ -102,7 +101,6 @@ a {
   padding: 5px;
 }
 
-/* Clearfix (clear floats) */
 .row::after {
   content: "";
   clear: both;
@@ -114,17 +112,32 @@ a {
 }
 
 .logo{
-  height: 50px;
+  height: 40px;
   width: auto;
-  padding-right: 35px;
-  padding-top: 20px;
-  padding-bottom: 35px;
+  padding-right: 15px;
+  padding-top: 0px;
 }
 
 .logodiv{
   margin-left: 10%;
   margin-right: 10%;
-  text-align: justify;
+}
+
+a {
+  color: black; /* Set your default link color */
+  text-decoration: underline; /* Remove underline, if desired */
+}
+
+/* Style for the link when hovering, excluding images */
+a:not(:has(img)):hover {
+  color: white; /* Set the text color to white on hover */
+  background-color: black; /* Set the background color to black on hover */
+  text-decoration: none; /* Add underline on hover */
+}
+
+::selection {
+  background-color: yellow;
+  color: black; /* Set the text color for selected text */
 }
 
 h2 {
@@ -139,9 +152,6 @@ body {
     margin-left: 2%;
     background:white;
     color:black;
-    text-align:center;
-    text-align: justify;
-    /* background: url("marsfaded.png")no-repeat center center fixed; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -149,7 +159,7 @@ body {
 }
 
 .subPageContent {
-  padding-top: 70px;
+  padding-top: 0px;
 }
 
 .homeLogo {
@@ -159,13 +169,7 @@ body {
     left: 50%;
     margin-top: -150px;
     margin-left: -140px;
-    /*filter: blur(2px);
-    transition: filter .5s ease-in-out;*/
 }
-
-/*.homeLogo:hover {
-    filter: blur(0px);
-}*/
 
 h1{
   /* font-family: 'Cutive Mono', monospace; */
@@ -186,17 +190,8 @@ h4{
 	font-weight: 100;
 	margin:15px;
 	padding: 0px;
-	/*filter: blur(5px);
-    -webkit-transform: translateZ(0);
-    transition: opacity .8s ease-in-out,filter .8s ease-in-out;
-    opacity:.5;
-    -webkit-opacity:.9;*/
 }
 
-/*h2:hover{
-    filter: blur(0);
-    opacity: 1;
-}*/
 
 .concordiaH1 {
     text-decoration: none;
@@ -211,7 +206,7 @@ h4{
 }
 
 .goToIndex {
-  font-family: 'paladin';
+  font-family: 'hel';
     text-decoration: none;
     display: block;
     color: black;
@@ -236,8 +231,7 @@ h4{
 
 .hello {
     margin-bottom: 20px;
-    font-family: 'paladin';
-    /* font-weight: 100; */
+    font-family: 'hel';
     font-size: 100px;
 }
 
@@ -272,7 +266,6 @@ h4{
 
 .mainPageImages2 {
     display: block;
-    /* margin: 0px 0px 0px 0px; */
     margin-top: -120px;
     margin-bottom: -10px;
     padding-left:0px;
@@ -300,79 +293,38 @@ h4{
 }
 
 .main p{
-    /* top: -10px; */
-    /* left: 0; */
-    /* position: relative; */
     font-family: 'ambiant', sans-serif;
     font-weight: 100;
     font-size: 100%;
     color: black;
 }
 
-/*.img trois{
-  width: 800px;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-top: -150px;
-  margin-left: -140px;
-}*/
-
-body trois{
-  background-image: url("./media/trois/trois.png");
-
-    height: 100%;
-    /*width: auto;
-    */
-    /*background-position: 0px 60px;*/
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.floatingBox:hover {
-    width: auto;
-    /* filter: blur(0);
-    transform: scale(1.2);
-    opacity: 1; */
-}
-
 .projectTitle {
-    /* font-family: 'Cutive Mono', monospace; */
-    font-family: 'paladin';
+    font-family: 'ambiant';
     color: black;
     margin-left: 10%;
     margin-right: 10%;
-    text-align: justify;
     font-size: 25px;
 }
 
 .projectTitleShe {
-    font-family: 'ambiant';
-    color: black;
-    /* color: black; */
-    font-size: 20px;
-    margin-left: 22%;
-    margin-right: 22%;
-    text-align: left;
-    text-indent: 0em;
-    display: block;
-    position: relative;
-    text-align: justify;
-    transition: color .5s;
+  font-family: 'ambiant';
+  color: black;
+  margin-left: 12%;
+  margin-right: 12%;
+  font-size: 15px;
 }
 
 .projectTitleShePHASE h2 {
-  font-family: 'paladin';
-  font-size: 40px;
+  font-family: 'ambiant';
+  font-size: 55px;
   color: black;
-  /* color: black; */
-  margin-left: 22%;
-  margin-right: 22%;
+  margin-left: 12%;
   text-align: left;
   text-indent: 0em;
   display: block;
   position: relative;
-  text-align: justify;
+  /* text-align: center; */
 }
 
 /* .projectTitleShe:hover {
@@ -380,10 +332,7 @@ color: blue;
 } */
 
 .paragraphs {
-    /* font-family: 'Cutive Mono', monospace; */
     font-family: 'ambiant';
-    /* color: #4300FC; */
-    font-size: 20px;
     margin-left: 10%;
     margin-right: 10%;
     text-align: left;
@@ -391,12 +340,7 @@ color: blue;
     display: block;
     position: relative;
     display: block;
-    text-align: justify;
 }
-
-/*.paragraphs:hover {
-    filter: blur(0);
-}*/
 
 .list {
     font-family: 'ambiant', sans-serif;
@@ -406,30 +350,6 @@ color: blue;
     /*transition: filter .5s ease-in-out;*/
     text-decoration: none;
     margin-bottom: 50px;
-}
-
-.imgGalleryArtaud{
-    width:auto;
-    height: 200px;
-    transition: transform .5s ease-in-out;
-}
-
-.imgGalleryArtaud:hover {
-    transform: scale(1.3);
-}
-
-.imgGalleryWhip {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 400px;
-    width: auto;
-    display: inline-block;
-    transition: box-shadow .3s ease-in-out;
-}
-
-.imgGalleryWhip:hover {
-    box-shadow: 0px 0px 3px 3px #aaaaaa;
 }
 
 
@@ -485,58 +405,37 @@ color: blue;
     vertical-align: middle;
 }
 
-.floatingBox {
-    margin-top: 0px;
-    margin-bottom: 40px;
-    font-family: 'paladin';
-    font-weight: 100;
-    font-size:25px;
-    color: black;
-    text-align: center;
+.floatingBox p{
+  font-family: 'Arsenica';
+  text-decoration: none;
+  font-size:20px;
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 45px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
-.floatingText p{
-  /* padding-top: -500px; */
+
+.projet {
+  position: relative;
+  max-width: 75%;
+  margin: 0 auto;
 }
 
-/* .projet {
-    position: relative;
-    text-align: center;
-} */
-
-/* .projet a{
-    position:relative;
-
-} */
-
-.projet img{
-        /* display: block; */
-        margin-left: auto;
-        margin-right: auto;
-        position:relative;
-        top:0;
-        left:0;
-        margin-bottom: -15px;
-        max-width:100%;
-        height:auto;
-        /* vertical-align: middle; */
+.projet img {
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 0px 30px #FFFF00;
+  filter: grayscale(90%);
+  transition:filter 0.2s; /* Add a smooth transition effect */
+  z-index: -1; /* Place the shadow behind the image */
 }
 
-.projet p{
-    top: -100px;
-    /* color: #0700FE; */
-    color: black;
-}
-
-.imgPed{
-    width:auto;
-    height: 600px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 0px;
-    margin-top: 20px;
-    resize: both;
-    overflow: auto;
+.projet:hover img {
+  filter: grayscale(0);
+  /* transform: scale(1.01); */
 }
 
 .aboutGlo{
@@ -566,7 +465,7 @@ color: blue;
 }
 
 h3 {
-    font-family: 'paladin';
+    font-family: 'hel';
     color: black;
     font-weight: 100;
     margin-left: 20px;

@@ -1,0 +1,40 @@
+.projet {
+  position: relative;
+  max-width: 75%;
+  margin: 0 auto;
+  overflow: hidden;
+  transition: filter 0.5s;
+}
+
+.projet a {
+  display: block;
+  position: relative;
+}
+
+.projet img {
+  width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+  transition: filter 0.5s, box-shadow 0.5s;
+}
+
+.projet::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 0px 0px 10px rgba(0, 0, 255, 0.8);
+  transition: box-shadow 0.5s;
+  z-index: -1;
+}
+
+.projet:hover::before {
+  box-shadow: 0px 0px 20px rgba(0, 0, 255, 0.8);
+}
+
+.projet:hover img {
+  filter: grayscale(0%);
+  /* Add any additional styles you want on hover */
+}
